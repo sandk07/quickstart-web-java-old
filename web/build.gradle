@@ -162,7 +162,7 @@ project(':web') {
 
 	task downloadBinaryArchive(type: Copy) {		
 		from configurations.downloadWar
-		into "$buildDir\\libs"		
+		into "$buildDir/libs"		
 	}
 
 	cargo {
